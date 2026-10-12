@@ -102,3 +102,7 @@
 Исходный код DPS XML Recovery распространяется на условиях [MIT License](LICENSE), Copyright (c) 2026 DvjFrost. Лицензии сторонних компонентов перечислены в `THIRD-PARTY-NOTICES.txt`.
 
 [Українська версія](README.md)
+
+## Дополнительно
+
+Создано с помощью ИИ [ChatGPT](https://chatgpt.com/) и [Codex](https://openai.com/codex/).
