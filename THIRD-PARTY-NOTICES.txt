@@ -1,0 +1,102 @@
+DPS XML Recovery 2.0.2 — third-party notices
+================================================
+
+DPS XML Recovery source code is licensed under the MIT License. See LICENSE.
+
+This file records the third-party software distributed in, or used to build,
+the portable application. It does not change the license of DPS XML Recovery
+source code. No IIT software or EUSignCP.dll is redistributed.
+
+Runtime components
+------------------
+
+CPython 3.12.10
+License: Python Software Foundation License Version 2 and the licenses listed
+in the CPython LICENSE file.
+Source and license: https://www.python.org/downloads/release/python-31210/
+
+Tcl/Tk 8.6
+License: BSD-style Tcl/Tk license.
+The Tk license text distributed by PyInstaller is retained inside
+_internal/_tk_data/license.terms.
+Source: https://www.tcl.tk/software/tcltk/license.html
+
+certifi 2026.7.22
+Copyright: Kenneth Reitz and contributors.
+License: Mozilla Public License 2.0 (MPL-2.0).
+Source and license: https://github.com/certifi/python-certifi
+
+PyInstaller bootloader 6.22.3
+Copyright: PyInstaller Development Team and contributors.
+License: GNU GPL version 2 or later with the special exception for distributing
+bundled applications. The exception permits the output executable to use the
+application's own license, provided modifications to the bootloader itself are
+made available under the GPL.
+Source and license: https://github.com/pyinstaller/pyinstaller
+
+PyInstaller community runtime hooks 2026.8
+License for bundled runtime hooks: Apache License 2.0.
+Standard build-time hooks are GPL-2.0-or-later and are not copied as source
+files into the release.
+Source and license: https://github.com/pyinstaller/pyinstaller-hooks-contrib
+
+Build-time packages
+-------------------
+
+altgraph 0.17.5 — MIT License
+https://github.com/ronaldoussoren/altgraph
+
+packaging 26.3 — Apache License 2.0 OR BSD 2-Clause License
+https://github.com/pypa/packaging
+
+pefile 2024.8.26 — MIT License
+https://github.com/erocarrera/pefile
+
+pywin32-ctypes 0.2.3 — BSD 3-Clause License
+Copyright (c) 2014, Enthought, Inc. All rights reserved.
+https://github.com/enthought/pywin32-ctypes
+
+setuptools 84.0.0 — MIT License
+https://github.com/pypa/setuptools
+
+Optional source dependency: Rich >=13.7,<15 — MIT License
+Rich is used only by the legacy CLI progress renderer when installed. It is not
+included in the portable GUI ZIP.
+https://github.com/Textualize/rich
+
+BSD 3-Clause notice for pywin32-ctypes
+--------------------------------------
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+1. Redistributions of source code must retain the above copyright notice,
+   this list of conditions and the following disclaimer.
+2. Redistributions in binary form must reproduce the above copyright notice,
+   this list of conditions and the following disclaimer in the documentation
+   and/or other materials provided with the distribution.
+3. Neither the name of Enthought, Inc. nor the names of its contributors may
+   be used to endorse or promote products derived from this software without
+   specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE
+LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+POSSIBILITY OF SUCH DAMAGE.
+
+Excluded user and vendor material
+---------------------------------
+
+The distribution does not contain EUSignCP.dll, other IIT components, JKS or
+private keys, user certificates, passwords, Authorization values, recovered
+XML, recovery databases, manifests, audit results, or user logs.
+
+Complete upstream license texts for the pinned build are included in the
+`licenses` directory. This notice is informational and is not legal advice.

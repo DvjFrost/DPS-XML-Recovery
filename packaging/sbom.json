@@ -1,0 +1,17 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "version": 1,
+  "metadata": {"component": {"type": "application", "name": "DPS XML Recovery", "version": "2.0.2"}},
+  "components": [
+    {"type": "framework", "name": "CPython", "version": "3.12.10", "licenses": [{"license": {"name": "PSF-2.0"}}]},
+    {"type": "library", "name": "PyInstaller", "version": "6.22.3", "licenses": [{"license": {"name": "GPL-2.0-or-later WITH Bootloader-exception"}}]},
+    {"type": "library", "name": "certifi", "version": "2026.7.22", "licenses": [{"license": {"id": "MPL-2.0"}}]},
+    {"type": "library", "name": "altgraph", "version": "0.17.5", "licenses": [{"license": {"id": "MIT"}}]},
+    {"type": "library", "name": "packaging", "version": "26.3", "licenses": [{"expression": "Apache-2.0 OR BSD-2-Clause"}]},
+    {"type": "library", "name": "pefile", "version": "2024.8.26", "licenses": [{"license": {"id": "MIT"}}]},
+    {"type": "library", "name": "pyinstaller-hooks-contrib", "version": "2026.8", "licenses": [{"expression": "GPL-2.0-or-later AND Apache-2.0"}]},
+    {"type": "library", "name": "pywin32-ctypes", "version": "0.2.3", "licenses": [{"license": {"id": "BSD-3-Clause"}}]},
+    {"type": "library", "name": "setuptools", "version": "84.0.0", "licenses": [{"license": {"id": "MIT"}}]}
+  ]
+}
