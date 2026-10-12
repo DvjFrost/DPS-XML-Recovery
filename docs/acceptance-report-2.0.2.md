@@ -15,7 +15,7 @@ The Windows 10 build and all automated acceptance gates passed. The user also co
 | Public frozen GUI | PASS | Opened from copied Unicode path and exited cleanly via normal window close |
 | Keyboard/layout | PASS on current Windows 10 host | Real Tk window: four shortcuts bound; action buttons visible at 760x600 and 150% scaling |
 | Regression suite | PASS | 177 passed, 0 failed, 0 skipped after release-documentation guardrails |
-| Package policy | PASS | x86; 972 files; no missing, forbidden, or secret-hit files; ZIP matches directory |
+| Package policy | PASS | x86; 973 files; no missing, forbidden, or secret-hit files; ZIP matches directory |
 | Acceptance isolation | PASS | Acceptance modules absent from public PyInstaller archive |
 
 No real key, IIT cryptographic operation, or DPS network request was used during automated acceptance.
@@ -40,9 +40,9 @@ The first acceptance build failed before `worker_ready`: the cancellation token 
 ## Artifact
 
 - ZIP: `DPS-XML-Recovery-2.0.2-win-x86.zip`
-- Size: 11,433,573 bytes (10.90 MiB)
-- SHA-256: `5e05a92c1672ce5c3a29ce6cad6c3bf2a1e03b5afd40423c4ea525ef4198f76f`
-- Package: x86 `onedir`, 972 files, UPX disabled
+- Size: 11,434,957 bytes (10.91 MiB)
+- SHA-256: `515d2f2d73681eb600831b11d017ce13fc9ae1d57bf2d3f827954495289ab323`
+- Package: x86 `onedir`, 973 files, UPX disabled
 
 ## Remaining limitations
 
